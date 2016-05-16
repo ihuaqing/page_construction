@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.b{
+    left: 0;
+    right: 0;
+    z-index: -2;
+
+    background: url('/home/ihuaqing/桌面/test.jpg') no-repeat center center fixed;
+    width: 100%;
+    height:300px;
+    background-size: cover;
+    filter: brightness(0.7)
+}
+ 
+header {
+    z-index: 50;
+    height: 50px;
+    width: 100%;
+    background-color: #1c2334;
+    position: fixed
+}
+main {
+    z-index: 48;
+    background-color: white
+}
+
+.navbar-left {
+    position: absolute;
+    left: 150px;
+}
+
+.navbar-bt {
+    position: absolute;
+    right: 150px
+}
+
+.upp > li {
+    text-transform: uppercase;
+    color: white;
+    opacity:1
+}
+
+
+
+.kk{
+    height:1px;
+    width:100%;
+    background-color: white;
+    position: absolute;
+    top:  50px
+}
+
+/*主体搭建*/
+.sec1 {
+    margin:0 100px;
+    width: 1170px;
+    height: 799px;
+   position: relative;
+   top: 100px;
+}
+
+
+.text-tidy {
+    opacity: 0.5;
+    font-size: 1.2em
+}
+
+.shape {
+    height: 120px;
+    width: 120px;
+    background-color: #1C2334;
+    border-radius: 5px;
+    transform: rotate(-45deg);
+    margin-left: 55px
+}
+
+.fa-c {
+    margin: 38px 0 0 38px;
+    color: white;
+}
+
+.fa-tran {
+    transform: rotate(45deg);
+}
+
+.upp {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.icon-top {
+    margin-top: 50px
+}
+
+li {
+    text-transform: uppercase
+}
+
+.sec2 {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 0;
+    background-color: #eee
+}
+
+.b2 {
+    position: relative;
+    top: 60px;
+    font-size: 2em;
+    color: white
+}
+
+.img-btn {
+    position: relative;
+    width: 140px;
+    top: 80px;
+    left: 600px
+}
+
+.img-btn:hover {
+    background-color: #d9534f
+}
+
+footer {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 580px;
+    background-color: #11151f
+}
+
+.footer-head{
+    padding: 60px
+}
+
+.footer-head > p {
+    color: white;
+    font-size: 3em
+}
+
+.footer-left {
+    position: relative;
+    top: 0;
+    left: 50px;
+    height:324px;
+    width: 585px;
+    padding-right: 40px
+}
+
+.footer-left  > p{
+    color: gray;
+    margin: 0
+}
+
+.footer-left > h4 {
+    color: white
+}
+
+.footer-right {
+    width: 585px;
+    height: 324px;
+    margin-left: 40px
+}
+
+.input1 {
+    width:555px;
+    height: 34px
+}
+
+
+.input2 {
+    width:555px;
+    height: 34px
+}
+
+.input3 {
+    width:555px;
+    height: 240px;
+}
+.input {
+    margin-bottom: 25px
+}
